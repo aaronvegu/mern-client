@@ -15,6 +15,8 @@ import Application from './containers/Application';
 import ScrollToTop from './scrollToTop';
 import setToken from './utils/token';
 
+import { inject } from '@vercel/analytics';
+
 // Import application sass styles
 import './styles/style.scss';
 
@@ -40,6 +42,8 @@ if (token) {
   // authenticate routes
   store.dispatch({ type: SET_AUTH });
 }
+
+inject();
 
 const app = () => (
   <Provider store={store}>

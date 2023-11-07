@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@fontsource/poppins": "^4.5.9",
+    "@vercel/analytics": "^1.1.1",
     "autosuggest-highlight": "^3.1.1",
     "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
