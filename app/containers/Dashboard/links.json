@@ -1,0 +1,49 @@
+{
+  "ROLE ADMIN": [
+    { "to": "", "name": "Detalle de cuenta", "prefix": "/dashboard" },
+    {
+      "to": "/security",
+      "name": "Seguridad",
+      "prefix": "/dashboard",
+      "provider": ["Email"]
+    },
+    { "to": "/address", "name": "Direciones", "prefix": "/dashboard" },
+    { "to": "/product", "name": "Productos", "prefix": "/dashboard" },
+    { "to": "/category", "name": "Categorias", "prefix": "/dashboard" },
+    { "to": "/brand", "name": "Marca", "prefix": "/dashboard" },
+    { "to": "/users", "name": "Usuarios", "prefix": "/dashboard" },
+    { "to": "/merchant", "name": "Vendedores", "prefix": "/dashboard" },
+    { "to": "/orders", "name": "Ordenes", "prefix": "/dashboard" },
+    { "to": "/review", "name": "Reviews", "prefix": "/dashboard" },
+    { "to": "/wishlist", "name": "Lista de Deseos", "prefix": "/dashboard" },
+    { "to": "/support", "name": "Soporte" }
+  ],
+  "ROLE MERCHANT": [
+    { "to": "", "name": "Detalle de cuenta", "prefix": "/dashboard" },
+    {
+      "to": "/security",
+      "name": "Seguridad",
+      "prefix": "/dashboard",
+      "provider": ["Email"]
+    },
+    { "to": "/address", "name": "Direcciones", "prefix": "/dashboard" },
+    { "to": "/brand", "name": "Marca", "prefix": "/dashboard" },
+    { "to": "/product", "name": "Productos", "prefix": "/dashboard" },
+    { "to": "/orders", "name": "Ordenes", "prefix": "/dashboard" },
+    { "to": "/wishlist", "name": "Lista de Deseos", "prefix": "/dashboard" },
+    { "to": "/support", "name": "Soporte" }
+  ],
+  "ROLE MEMBER": [
+    { "to": "", "name": "Detalle de cuenta", "prefix": "/dashboard" },
+    {
+      "to": "/security",
+      "name": "Seguridad",
+      "prefix": "/dashboard",
+      "provider": ["Email"]
+    },
+    { "to": "/address", "name": "Dirreciones", "prefix": "/dashboard" },
+    { "to": "/orders", "name": "Ordenes", "prefix": "/dashboard" },
+    { "to": "/wishlist", "name": "Lista de deseos", "prefix": "/dashboard" },
+    { "to": "/support", "name": "Soporte" }
+  ]
+}
